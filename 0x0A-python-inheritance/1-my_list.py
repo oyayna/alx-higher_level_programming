@@ -1,16 +1,15 @@
 #!/usr/bin/python3
-""" 1-my_list: MyList """
+"""
+    Defining class Mylist
+    """
 
 
 class MyList(list):
     """
-        class MyList
-        inherits from list
-        Methods:
-            print_sorted: prints sorted list
+        MyList
     """
     def print_sorted(self):
         """
-            prints list sorted in ascending order
+        Print a sorted List
         """
         print(sorted(self))
